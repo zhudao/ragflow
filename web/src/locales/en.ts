@@ -1244,7 +1244,7 @@ This auto-tagging feature enhances retrieval by adding another layer of domain-s
       agenticTemplateTooLong: 'Template must be at most 32768 characters',
       resetToDefault: 'Reset to default',
       thinkingTip:
-        'Only controls thinking mode for official Qwen, Kimi, and GLM model providers. System default disables Qwen thinking to avoid long-running tasks.',
+        'Thinking is disabled by default. Select Enabled to turn it on for models that support thinking mode.',
       quote: 'Show citations',
       quoteTip: 'Whether to display the original text as a reference.',
       selfRag: 'Self-RAG',
@@ -2258,6 +2258,10 @@ Example: Virtual Hosted Style`,
       mineruApiserver: 'MinerU API Server',
       mineruApiserverMessage: 'Please input the MinerU API Server URL!',
       mineruApiserverPlaceholder: 'e.g. http://host.docker.internal:9987',
+      unlimitedOcrServerUrl: 'Unlimited-OCR-2 Server URL',
+      unlimitedOcrServerUrlMessage:
+        'Please input the Unlimited-OCR-2 Server URL!',
+      unlimitedOcrServerUrlPlaceholder: 'e.g. http://127.0.0.1:18000',
       mineruApiToken: 'MinerU API token',
       mineruApiTokenPlaceholder: 'Token from mineru.net API management',
       mineruApiTokenTip:
@@ -3613,6 +3617,9 @@ This process aggregates variables from multiple branches into a single variable 
       switchPromptMessage:
         'The prompt words will change. Please confirm whether you want to discard the existing prompt words?',
       queryRequired: 'Query is required',
+      highlight: 'Highlight',
+      highlightTip:
+        'Mark the matched words in retrieved chunks. The highlight text is returned with each chunk.',
       queryTip: 'Select the variable you want to use',
       agent: 'Agent',
       addAgent: 'Add agent',
@@ -4038,11 +4045,16 @@ Important structured information may include: names, dates, locations, events, k
       welcomeBack: 'Welcome back',
       searchSettings: 'Search settings',
       name: 'Name',
+      nameRequired: 'Name is required',
       avatar: 'Avatar',
       description: 'Description',
       datasets: 'Datasets',
+      datasetRequired: 'At least one dataset is required',
       rerankModel: 'Rerank model',
+      rerankModelRequired: 'Rerank model is required when rerank is enabled',
       AISummary: 'AI summary',
+      modelRequired:
+        'Model is required when AI summary, related search, or query mindmap is enabled',
       enableWebSearch: 'Enable web search',
       enableRelatedSearch: 'Enable related search',
       showQueryMindmap: 'Show query mindmap',
