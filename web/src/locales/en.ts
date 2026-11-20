@@ -1866,8 +1866,6 @@ Example: Virtual Hosted Style`,
         'Connect GitHub to sync pull requests and issues for retrieval.',
       airtableDescription:
         'Connect to Airtable and synchronize files from a specified table within a designated workspace.',
-      dingtalkAITableDescription:
-        'Connect to Dingtalk AI Table and synchronize records from a specified table.',
       gitlabDescription:
         'Connect GitLab to sync repositories, issues, merge requests, and related documentation.',
       asanaDescription:
@@ -2168,7 +2166,9 @@ Example: Virtual Hosted Style`,
       search: 'Search',
       availableModels: 'Available models',
       recommended: 'Recommended',
-      profile: 'Profile',
+      settings: 'Settings',
+      profile: 'Account',
+      displayLanguage: 'Display language',
       avatar: 'Avatar',
       avatarTip: 'This will be displayed on your profile.',
       profileDescription: 'Update your photo and personal details here.',

@@ -472,6 +472,8 @@ export default {
         '现有分块由之前的解析设置生成。是否清空现有分块，并使用已保存的设置重新解析此文档？',
       parseFile: '解析文件',
       emptyMetadata: '无元数据',
+      metadataField: '元数据字段',
+      systemAttribute: '系统属性',
       localUpload: '本地上传',
       fileSize: '文件大小',
       fileType: '文件类型',
@@ -1712,7 +1714,6 @@ NER：使用 spaCy NER 和基于规则的关键词提取来抽取 Entities 和 R
       githubDescription:
         '连接 GitHub，可同步 Pull Request 与 Issue 内容用于检索。',
       airtableDescription: '连接 Airtable，同步指定工作区下指定表格中的文件。',
-      dingtalkAITableDescription: '连接钉钉AI表格，同步指定表格中的记录。',
       gitlabDescription:
         '连接 GitLab，同步仓库、Issue、合并请求（MR）及相关文档内容。',
       asanaDescription: '连接 Asana，同步工作区中的文件。',
@@ -1791,7 +1792,9 @@ NER：使用 spaCy NER 和基于规则的关键词提取来抽取 Entities 和 R
       search: '搜索',
       availableModels: '可选模型',
       recommended: '推荐',
-      profile: '概要',
+      settings: '设置',
+      profile: '账户',
+      displayLanguage: '显示语言',
       avatar: '头像',
       avatarTip: '这会在你的个人主页展示',
       profileDescription: '在此更新您的照片和个人详细信息。',
